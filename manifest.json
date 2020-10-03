@@ -1,0 +1,50 @@
+{
+    "manifest_version": 2,
+    "name": "Healthier Tech Habits",
+    "description": "A Chrome Extension giving you the tools to improve your digital wellbeing. Will allow you to block unwanted websites, remove social media feeds, greyscale websites..." ,
+    "version": "1.0.0",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "http://www.facebook.com/*",
+		"https://www.facebook.com/*",
+		"http://web.facebook.com/*",
+		"https://web.facebook.com/*",
+		"http://twitter.com/*",
+        "https://twitter.com/*",
+        "webNavigation",
+        "webRequest",
+        "webRequestBlocking",
+        "*://pbs.twimg.com/",
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": "quiet-bird.png",
+        "default_popup": "popup.html",
+        "default_title": "Healthier Tech Habits"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://www.facebook.com/*",
+                "https://www.facebook.com/*",
+                "http://web.facebook.com/*",
+                "https://web.facebook.com/*",
+                "http://twitter.com/*",
+                "https://twitter.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "healthier-tech-habits.css"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "show-timeline.css",
+        "show-news-feed.css",
+        "quiet-bird.png",
+        "quiet-bird-128 .png"
+    ]
+}
