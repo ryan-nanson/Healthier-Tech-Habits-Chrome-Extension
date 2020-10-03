@@ -1,0 +1,12 @@
+
+[aria-label="Timeline: Your Home Timeline"] {
+  visibility: visible !important;
+}
+
+[aria-label="Timeline: Explore"] {
+  visibility: visible !important;
+}
+
+[aria-label="Timeline: Trending now"] {
+  visibility: visible !important;
+}
