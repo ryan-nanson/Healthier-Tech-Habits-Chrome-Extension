@@ -19,7 +19,7 @@
         "tabs"
     ],
     "browser_action": {
-        "default_icon": "quiet-bird.png",
+        "default_icon": "healthier-tech-habits.png",
         "default_popup": "popup.html",
         "default_title": "Healthier Tech Habits"
     },
@@ -44,7 +44,7 @@
     "web_accessible_resources": [
         "show-timeline.css",
         "show-news-feed.css",
-        "quiet-bird.png",
-        "quiet-bird-128 .png"
+        "healthier-tech-habits.png",
+        "healthier-tech-habits-120.png"
     ]
 }
