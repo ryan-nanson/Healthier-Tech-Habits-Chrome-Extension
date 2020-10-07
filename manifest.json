@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Healthier Tech Habits",
-    "description": "A Chrome Extension giving you the tools to improve your digital wellbeing. Will allow you to block unwanted websites, remove social media feeds, greyscale websites..." ,
+    "description": "A Chrome Extension giving you the tools to improve your digital wellbeing. Will allow you to block unwanted websites, remove social media feeds (Twitter and Facebook), greyscale websites, etc" ,
     "version": "1.0.0",
     "permissions": [
         "activeTab",
