@@ -48,5 +48,11 @@
         "healthier-tech-habits-16.png",
         "healthier-tech-habits-48.png",
         "healthier-tech-habits-128.png"
-    ]
+    ],
+    "icons": {
+        "16":  "healthier-tech-habits-16.png",
+        "48":  "healthier-tech-habits-8.png",
+        "128": "healthier-tech-habits-128.png",
+        "400": "healthier-tech-habits.png"
+    }
 }
