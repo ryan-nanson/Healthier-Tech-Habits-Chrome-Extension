@@ -4,6 +4,16 @@ Chrome extension giving you the tools to improve your tech habits.
 ## Features:
 * Block feeds on social media sites (Twitter and Facebook)
 
+## Screenshots
+
+![](resources/screenshots/twitter_light.png)
+
+![](resources/screenshots/twitter_dark.png)
+
+![](resources/screenshots/facebook_light.png)
+
+![](resources/screenshots/facebook_dark.png)
+
 
 ## Run Locally
 1. Navigate to chrome://extensions
