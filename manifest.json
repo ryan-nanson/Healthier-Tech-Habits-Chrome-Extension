@@ -1,23 +1,8 @@
 {
     "manifest_version": 2,
     "name": "Healthier Tech Habits",
-    "description": "A Chrome Extension giving you the tools to improve your digital wellbeing. Will allow you to block unwanted websites, remove social media feeds (Twitter and Facebook), greyscale websites, etc",
+    "description": "Block and remove/hide social media feeds (Twitter and Facebook).",
     "version": "1.0.0",
-    "permissions": [
-        "activeTab",
-        "storage",
-        "http://www.facebook.com/*",
-        "https://www.facebook.com/*",
-        "http://web.facebook.com/*",
-        "https://web.facebook.com/*",
-        "http://twitter.com/*",
-        "https://twitter.com/*",
-        "webNavigation",
-        "webRequest",
-        "webRequestBlocking",
-        "*://pbs.twimg.com/",
-        "tabs"
-    ],
     "browser_action": {
         "default_icon": "healthier-tech-habits.png",
         "default_popup": "popup.html",
@@ -51,7 +36,7 @@
     ],
     "icons": {
         "16":  "healthier-tech-habits-16.png",
-        "48":  "healthier-tech-habits-8.png",
+        "48":  "healthier-tech-habits-48.png",
         "128": "healthier-tech-habits-128.png",
         "400": "healthier-tech-habits.png"
     }
