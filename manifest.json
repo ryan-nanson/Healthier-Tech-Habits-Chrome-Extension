@@ -3,6 +3,11 @@
     "name": "Healthier Tech Habits",
     "description": "Block and remove/hide social media feeds (Twitter and Facebook).",
     "version": "1.0.0",
+    "permissions": [	
+        "activeTab",	
+        "storage",
+        "tabs"	
+    ],
     "browser_action": {
         "default_icon": "resources/icons/healthier-tech-habits.png",
         "default_popup": "popup.html",
