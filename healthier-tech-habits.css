@@ -1,4 +1,6 @@
-
+body {
+  filter: grayscale(0);
+}
 
 [aria-label="Timeline: Your Home Timeline"] {
     visibility: hidden;
