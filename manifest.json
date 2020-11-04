@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Healthier Tech Habits",
     "description": "Block and remove/hide social media feeds (Twitter and Facebook).",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "permissions": [	
         "activeTab",	
         "storage",

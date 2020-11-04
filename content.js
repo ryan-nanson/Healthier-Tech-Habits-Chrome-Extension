@@ -1,9 +1,15 @@
 chrome.storage.sync.get(null, function (settingsObj) {
-    if (settingsObj["hide-twitter-feeds-check"] === false) {
+
+    if (settingsObj["test-toggle"]) {
+        console.log("toggle has been toggled");
+    }
+
+
+    if (settingsObj["hide-twitter-feed"] === false) {
         console.log('hide twitter feed')   
         embedCSSFile("show-timeline.css");
     }
-    if (settingsObj["hide-facebook-feed-check"] === false) {
+    if (settingsObj["hide-facebook-feed"] === false) {
         console.log('hide facebook feed')   
         embedCSSFile("show-news-feed.css");
     }
