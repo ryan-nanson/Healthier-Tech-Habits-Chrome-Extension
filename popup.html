@@ -6,34 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Popup options</title>
-  <style>
-    .settings {
-      min-width: 166px;
-    }
-
-    .settings label {
-      margin-right: 16px;
-    }
-  </style>
+  <link rel="stylesheet" href="popup.css">
 </head>
 
 <body>
   <form action="" id="settings-form" class="settings">
+    <h3>
+      <label for="settings-form">Healthier Tech Habits: </label>
+    </h3>
+    <h4>
+      <label>Twitter Settings</label>
+    </h4>
     <p>
-      <label for="hide-twiter-feeds">Hide Twitter feeds?</label>
-      <input type="checkbox" id="hide-twitter-feeds-check" checked/>
+      <label for="hide-twitter-feed">Hide Twitter feeds?</label>
+      <input type="checkbox" id="hide-twitter-feed" class="custom-toggle" checked />
     </p>
     <p>
       <label for="twitter-grayscale">Grayscale Twitter</label>
-      <input type="checkbox" id="twitter-grayscale" checked/>
+      <input type="checkbox" id="twitter-grayscale" class="custom-toggle" checked />
     </p>
+
+    <h4>
+      <label>Facebook Settings</label>
+    </h4>
     <p>
       <label for="hide-facebook-feed">Hide Facebook feed?</label>
-      <input type="checkbox" id="hide-facebook-feed-check" checked/>
+      <input type="checkbox" id="hide-facebook-feed" class="custom-toggle" checked />
     </p>
     <p>
-      <label for="facebook-grayscale">Grayscale Facebook</label>  
-      <input type="checkbox" id="facebook-grayscale" checked/>
+      <label for="facebook-grayscale">Grayscale Facebook</label>
+      <input type="checkbox" id="facebook-grayscale" class="custom-toggle" checked />
     </p>
   </form>
 
