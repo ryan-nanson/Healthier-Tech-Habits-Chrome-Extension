@@ -7,10 +7,15 @@
     margin-right: 16px;
   }
 
+  label {
+    cursor: pointer;
+  }
+
   p {
     margin-top: 5px;
     margin-left: 0px;
     margin-right: 0px;
+    cursor: pointer;
   }
 
 input[type=checkbox] {
