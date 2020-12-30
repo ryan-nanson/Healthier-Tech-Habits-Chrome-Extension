@@ -3,7 +3,7 @@ Chrome extension giving you the tools to improve your tech habits.
 
 
 ## Features:
-* Block feeds on social media sites (Twitter and Facebook)
+* Block feeds on social media sites (Twitter, Facebook and LinkedIn)
 
 
 ## Run Locally

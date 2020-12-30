@@ -2,6 +2,7 @@ body {
   filter: grayscale(0);
 }
 
+/* This hides the Twitter feed before the JS kicks in */
 [aria-label="Timeline: Your Home Timeline"] {
     visibility: hidden;
   }
@@ -22,7 +23,12 @@ body {
     visibility: hidden;
   }
 
-/* This hides the news feed before the JS kicks in */
+/* This hides the LinkedIn feed before the JS kicks in */
+  div[role='main'] {
+  visibility: hidden;
+  }
+
+/* This hides the Facebook feed before the JS kicks in */
 div[id^='explorefeed_main_stream'],
 div[id^='topnews_main_stream'],
 div.ticker_stream,
