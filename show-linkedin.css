@@ -1,0 +1,4 @@
+/* This hides the feed before the JS kicks in */
+div[role='main'] {
+	visibility: visible !important;
+}

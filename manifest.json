@@ -2,12 +2,10 @@
     "manifest_version": 2,
     "name": "Healthier Tech Habits",
     "description": "Block and remove/hide social media feeds (Twitter and Facebook).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "permissions": [	
-        "activeTab",	
-        "storage",
-        "tabs"	
-    ],
+        "storage"
+   ],
     "browser_action": {
         "default_icon": "resources/icons/healthier-tech-habits.png",
         "default_popup": "popup.html",
@@ -21,7 +19,9 @@
                 "http://web.facebook.com/*",
                 "https://web.facebook.com/*",
                 "http://twitter.com/*",
-                "https://twitter.com/*"
+                "https://twitter.com/*",
+                "http://www.linkedin.com/*",
+                "https://www.linkedin.com/*"
             ],
             "js": [
                 "content.js"
@@ -32,8 +32,9 @@
         }
     ],
     "web_accessible_resources": [
-        "show-timeline.css",
-        "show-news-feed.css",
+        "show-twitter.css",
+        "show-facebook.css",
+        "show-linkedin.css",
         "resources/icons/healthier-tech-habits.png",
         "resources/icons/healthier-tech-habits-16.png",
         "resources/icons/healthier-tech-habits-48.png",
