@@ -16,17 +16,17 @@ chrome.storage.sync.get(null, function (settingsObj) {
     url = window.location.toString();
     console.log(url)
 
-    if (settingsObj["facebook-grayscale"] === true && url.includes('facebook')) {
+    if (settingsObj["facebook-grayscale"] === false && url.includes('facebook')) {
         console.log('facebook goes grayscale')   
-        document.getElementsByTagName("body")[0].style.filter = 'grayscale(1)';
+        document.getElementsByTagName("body")[0].style.filter = 'grayscale(0)';
     }
-    if (settingsObj["twitter-grayscale"] === true && url.includes('twitter')) {
+    if (settingsObj["twitter-grayscale"] === false && url.includes('twitter')) {
         console.log('twitter goes grayscale')
-        document.getElementsByTagName("body")[0].style.filter = 'grayscale(1)';
+        document.getElementsByTagName("body")[0].style.filter = 'grayscale(0)';
     }
-    if (settingsObj["linkedin-grayscale"] === true && url.includes('linkedin')) {
+    if (settingsObj["linkedin-grayscale"] === false && url.includes('linkedin')) {
         console.log('linked goes grayscale')
-        document.getElementsByTagName("body")[0].style.filter = 'grayscale(1)';
+        document.getElementsByTagName("body")[0].style.filter = 'grayscale(0)';
     }
 });
 
